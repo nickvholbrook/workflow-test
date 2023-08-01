@@ -21,7 +21,7 @@ jobs:
           cat test.txt
         shell: bash
         
-      - name: display file content
+      - name: Create file content
         run: |
-          cat test.txt
+          echo "This is a test" > test2.txt
         shell: bash        
