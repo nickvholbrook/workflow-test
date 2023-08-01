@@ -1,0 +1,20 @@
+name: Display file content
+run-name: file content
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs: 
+  display_files:
+    name: display file content
+    runs-on: ubuntu-latest
+  steps:
+    - name: checkout repository
+      uses: actions/checkout@v2
+      
+    - name: display file content
+      run: |
+        cat test.txt
+      shell: bash
