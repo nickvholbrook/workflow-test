@@ -22,6 +22,7 @@ jobs:
         # Inside task
         run: |
           cat test.txt
+          echo $(pwd)
         shell: bash
       #/* - name: Create file content
       #  run: |
