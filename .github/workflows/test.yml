@@ -18,12 +18,12 @@ jobs:
         uses: actions/checkout@v2
       
       # Deliberate failure
-      - name: display file content
+      - name: cat file content
         # Inside task
         run: |
           cat test.txt
         shell: bash
-        
+      /*       
       - name: Create file content
         run: |
           echo "This is another test" >> test.txt
@@ -35,4 +35,5 @@ jobs:
           git remote -v
           git push origin main
         shell: bash     
+        */
 
