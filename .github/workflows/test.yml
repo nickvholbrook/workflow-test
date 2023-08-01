@@ -23,5 +23,5 @@ jobs:
         
       - name: Create file content
         run: |
-          echo "This is a test" > test2.txt
+          echo "This is a test" > test.txt
         shell: bash        
