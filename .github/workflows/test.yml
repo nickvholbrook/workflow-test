@@ -23,5 +23,8 @@ jobs:
         
       - name: Create file content
         run: |
-          echo "This is a test" > test.txt
-        shell: bash        
+          echo "This is another test" >> test.txt
+        shell: bash     
+        
+      - name: checkout repository
+        uses: actions/checkout@v2
