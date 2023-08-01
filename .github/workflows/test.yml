@@ -28,8 +28,8 @@ jobs:
           git config --global user.name "Nick Holbrook"
           git add .
           git commit -am "Added another line"
-          #git push origin main
           git status
           git remote -v
+          git push origin main
         shell: bash     
 
