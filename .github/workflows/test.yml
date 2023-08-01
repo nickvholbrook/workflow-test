@@ -30,5 +30,6 @@ jobs:
           git commit -am "Added another line"
           #git push origin main
           git status
+          git remote -v
         shell: bash     
 
