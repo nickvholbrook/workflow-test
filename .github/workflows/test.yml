@@ -14,7 +14,9 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v2
       
+      # Deliberate failure
       - name: display file content
+        # Inside task
         run: |
           cat test2.txt
         shell: bash
