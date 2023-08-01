@@ -18,7 +18,7 @@ jobs:
       - name: display file content
         # Inside task
         run: |
-          cat test2.txt
+          cat test.txt
         shell: bash
         
       - name: display file content
