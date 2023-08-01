@@ -23,17 +23,14 @@ jobs:
         run: |
           cat test.txt
         shell: bash
-      /*       
-      - name: Create file content
-        run: |
-          echo "This is another test" >> test.txt
-          git config --global user.email "nick.holbrook@gmail.com"
-          git config --global user.name "Nick Holbrook"
-          git add .
-          git commit -am "Added another line"
-          git status
-          git remote -v
-          git push origin main
-        shell: bash     
-        */
-
+      #/* - name: Create file content
+      #  run: |
+      #    echo "This is another test" >> test.txt
+      #    git config --global user.email "nick.holbrook@gmail.com"
+      #    git config --global user.name "Nick Holbrook"
+      #    git add .
+      #    git commit -am "Added another line"
+      #    git status
+      #    git remote -v
+      #    git push origin main
+      #  shell: bash     
