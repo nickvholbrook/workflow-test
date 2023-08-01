@@ -24,6 +24,9 @@ jobs:
       - name: Create file content
         run: |
           echo "This is another test" >> test.txt
+          git add .
+          git commit -am "Added another line"
+          git push
         shell: bash     
         
       - name: checkout repository
