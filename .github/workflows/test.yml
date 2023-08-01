@@ -16,5 +16,10 @@ jobs:
       
       - name: display file content
         run: |
-          cat test.txt
+          cat test2.txt
         shell: bash
+        
+      - name: display file content
+        run: |
+          cat test.txt
+        shell: bash        
